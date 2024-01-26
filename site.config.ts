@@ -3,6 +3,7 @@ import {
   IoLogoGithub as GitHubIcon,
   IoLogoLinkedin as LinkedInIcon,
   IoMailOpen as EmailIcon,
+  IoDocuments as DocsIcon,
 } from "react-icons/io5";
 import { PiNotebookFill as CVIcon } from "react-icons/pi";
 
@@ -28,6 +29,7 @@ const contactLinks = [
   { desc: "LinkedIn", href: "https://linkedin.com/in/" + siteInfo.linkedinUsername, icon: createElement(LinkedInIcon) },
   { desc: "Email", href: "mailto:" + siteInfo.email, icon: createElement(EmailIcon) },
   { desc: "CV", href: siteInfo.cvPath, icon: createElement(CVIcon) },
+  { desc: "Technical Writing", href: "https://drive.google.com/drive/folders/1xuqiFfT_hCTA1u_cRHNL5q4NyzR71mml?usp=drive_link", icon: createElement(DocsIcon) },
 ] as const;
 
 const githubStatsCardColors = {
